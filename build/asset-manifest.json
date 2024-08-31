@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e67bebd.css",
-    "main.js": "/static/js/main.515ab337.js",
-    "static/media/React-App-netflix-clone.png": "/static/media/React-App-netflix-clone.77610b2c950486dbb80f.png",
-    "static/media/Charlestown-Pizza.png": "/static/media/Charlestown-Pizza.b014158f9b26c5b5b0e9.png",
-    "static/media/Gridlinesbuilders.png": "/static/media/Gridlinesbuilders.b1ae9a07030baae69f63.png",
-    "static/media/olx-clone image.png": "/static/media/olx-clone image.887047ffbf12c447e947.png",
+    "main.css": "/static/css/main.7cbca9a9.css",
+    "main.js": "/static/js/main.4c0603bd.js",
+    "static/media/sweet paradise.png": "/static/media/sweet paradise.15b4aba559328801ca13.png",
     "static/media/web-removebg-preview.png": "/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
+    "static/media/simple calender.png": "/static/media/simple calender.6d7921c6ac2694164a69.png",
     "static/media/Web-designer-1024x821.webp": "/static/media/Web-designer-1024x821.6e57f7f5669037a83b03.webp",
+    "static/media/simple calculator.PNG": "/static/media/simple calculator.441e3b071fac70cbdf06.PNG",
     "static/media/canteen_hut website.png": "/static/media/canteen_hut website.b66535314e3049c79044.png",
-    "static/media/todolist.png": "/static/media/todolist.13858f78acbb5bec224e.png",
     "static/media/logo.png": "/static/media/logo.f19dc884e6a17b9bf8f4.png",
-    "static/media/bars.svg": "/static/media/bars.a2e35dd5aede7934d82e.svg",
+    "static/media/bars.svg": "/static/media/bars.b264a25d796c08e0e322.svg",
     "index.html": "/index.html",
-    "main.2e67bebd.css.map": "/static/css/main.2e67bebd.css.map",
-    "main.515ab337.js.map": "/static/js/main.515ab337.js.map"
+    "main.7cbca9a9.css.map": "/static/css/main.7cbca9a9.css.map",
+    "main.4c0603bd.js.map": "/static/js/main.4c0603bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e67bebd.css",
-    "static/js/main.515ab337.js"
+    "static/css/main.7cbca9a9.css",
+    "static/js/main.4c0603bd.js"
   ]
 }
