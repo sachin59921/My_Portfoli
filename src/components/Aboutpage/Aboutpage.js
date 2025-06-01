@@ -43,6 +43,9 @@ function Aboutpage() {
                   <li>JavaScript</li>
                   <li>CSS Tailwind</li>
                   <li>Bootsrap 5</li>
+                  <li>Manual Testing</li>
+                  <li>Test Case Design & Execution</li>
+                  <li> Analytical Thinking, Attention to Detail</li>
                 </Col>
                 <Col md={5}>
                   <li>React Js</li>
@@ -50,6 +53,9 @@ function Aboutpage() {
                   <li>Figma</li>
                   <li>Material-ui</li>
                   <li>Git/Github</li>
+                  <li>Bug Tracking & Reporting</li>
+                  <li>Agile Methodology & SDLC Understanding</li>
+                  <li>Effective Communication & Team Collaboration</li>
                 </Col>
               </Row>
             </ul>
