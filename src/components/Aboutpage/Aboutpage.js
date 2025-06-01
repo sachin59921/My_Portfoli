@@ -12,19 +12,29 @@ function Aboutpage() {
               About <span>Me</span>
             </h3>
             <p className="aboutdetails">
-              "I'm Sachin Kumar Pal, a motivated and passionate <b>web developer </b> 
-               from Ponda, Goa, currently pursuing my Master of Computer Applications (MCA) at Goa University. With
-              strong expertise in <b>HTML5, CSS3, JavaScript, and React.js,</b> I
-              specialize in crafting responsive websites that enhance user
-              experiences. I recently completed a <b>one-month internship,</b> where I
-              gained valuable experience building responsive web applications
-              and enhancing user interfaces. I possess strong problem-solving
-              skills and have a deep passion for learning new technologies and
-              harnessing them for positive transformations.</p>
-              <br></br> 
-              <p className="aboutdetails"> Beyond coding, I
-              enjoy photography and exploring new places. Let's connect and
-              create a digital future together!"
+            👋 I'm Sachin Kumar Pal, a detail-driven and enthusiastic QA Software Engineer based in Ponda, Goa. I'm currently pursuing my Master of Computer Applications (MCA) at Goa University and actively seeking entry-level or internship opportunities in Software Quality Assurance (QA).
+
+🛠️ I recently completed a QA internship at SJ Innovation Pvt. Ltd., where I gained hands-on experience in:
+
+Manual testing of web applications
+
+Designing and executing detailed test cases
+
+Bug tracking and reporting using Jira
+
+Working in Agile teams, participating in daily stand-ups and sprint planning
+
+Performing regression and functional testing to ensure smooth, high-quality releases
+
+This experience helped me build a solid foundation in QA processes, SDLC, and team collaboration — and fueled my passion for delivering reliable and user-focused products.
+
+💻 I also bring frontend skills in HTML5, CSS3, JavaScript, and React.js, which help me understand user interfaces from both a developer and a tester’s perspective — making my QA work more insightful and efficient.
+
+📸 Outside of tech, I enjoy photography and exploring new places, which enhance my attention to detail and creative thinking.
+
+🚀 I’m currently open to work and looking for roles such as QA Intern, Junior QA Engineer, or Manual Tester, where I can grow under mentorship and contribute to high-quality software development.
+
+📬 Let’s connect! Feel free to reach out if you’re hiring, collaborating, or want to explore how we can work together.
               </p>
             
             <ul className="skilllist">
