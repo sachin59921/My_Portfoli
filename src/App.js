@@ -1,47 +1,46 @@
-import './App.css';
-import { useEffect, useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Preloader from '../src/components/Pre'
-import Home from './pages/Home.js'
-import About from './pages/About'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import Project from './pages/Project';
-import Contact from './pages/Contact';
+import "./App.css";
+import { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Preloader from "./components/Pre";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Project from "./pages/Project";
+import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
   const [mousePosition, setMousePosition] = useState({
     x: 0,
-    y: 0
+    y: 0,
   });
-  console.log(mousePosition);
 
   useEffect(() => {
-    const mouseMove = e => {
+    const mouseMove = (event) => {
       setMousePosition({
-        x: e.clientX,
-        y: e.clientY
-      })
-    }
+        x: event.clientX,
+        y: event.clientY,
+      });
+    };
 
     window.addEventListener("mousemove", mouseMove);
 
     return () => {
       window.removeEventListener("mousemove", mouseMove);
-    }
+    };
   }, []);
 
   const variants = {
     default: {
       x: mousePosition.x - 16,
-      y: mousePosition.y - 16
-    }
-  }
+      y: mousePosition.y - 16,
+    },
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
@@ -53,15 +52,22 @@ function App() {
         className="cursor"
         variants={variants}
         animate="default"
+        aria-hidden="true"
       />
+
       <Router>
         <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
+
+        <div
+          className="App"
+          id={load ? "no-scroll" : "scroll"}
+          aria-busy={load}
+        >
           <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/project' element={<Project />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </Router>
