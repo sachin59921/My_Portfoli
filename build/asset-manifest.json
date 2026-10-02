@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cbca9a9.css",
-    "main.js": "/static/js/main.4c0603bd.js",
+    "main.css": "/static/css/main.2d6c17e2.css",
+    "main.js": "/static/js/main.02bef0aa.js",
+    "static/media/weatherapp.png": "/static/media/weatherapp.12e6b2d604c500cd0431.png",
+    "static/media/Tastify.png": "/static/media/Tastify.470dcfc1eb57facfaba3.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.dcd1ba478dfdab26c4a8.png",
     "static/media/sweet paradise.png": "/static/media/sweet paradise.15b4aba559328801ca13.png",
     "static/media/web-removebg-preview.png": "/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
     "static/media/simple calender.png": "/static/media/simple calender.6d7921c6ac2694164a69.png",
     "static/media/Web-designer-1024x821.webp": "/static/media/Web-designer-1024x821.6e57f7f5669037a83b03.webp",
     "static/media/simple calculator.PNG": "/static/media/simple calculator.441e3b071fac70cbdf06.PNG",
     "static/media/canteen_hut website.png": "/static/media/canteen_hut website.b66535314e3049c79044.png",
+    "static/media/Note&Password.png": "/static/media/Note&Password.34b238ef2e25d98d7a0e.png",
     "static/media/logo.png": "/static/media/logo.f19dc884e6a17b9bf8f4.png",
     "static/media/bars.svg": "/static/media/bars.b264a25d796c08e0e322.svg",
     "index.html": "/index.html",
-    "main.7cbca9a9.css.map": "/static/css/main.7cbca9a9.css.map",
-    "main.4c0603bd.js.map": "/static/js/main.4c0603bd.js.map"
+    "main.2d6c17e2.css.map": "/static/css/main.2d6c17e2.css.map",
+    "main.02bef0aa.js.map": "/static/js/main.02bef0aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cbca9a9.css",
-    "static/js/main.4c0603bd.js"
+    "static/css/main.2d6c17e2.css",
+    "static/js/main.02bef0aa.js"
   ]
 }
